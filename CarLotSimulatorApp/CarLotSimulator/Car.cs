@@ -10,7 +10,7 @@ namespace CarLotSimulator
     {
         public Car() 
         {
-            
+            CarLot.numberofCars++;
         }
         //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
         //Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()

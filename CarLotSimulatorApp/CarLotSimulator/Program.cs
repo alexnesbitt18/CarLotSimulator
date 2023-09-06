@@ -53,6 +53,8 @@ namespace CarLotSimulator
 
             lot.Cars.Add(alexsCar);
 
+            Console.WriteLine($"This is the total amount of cars in the parking lot: {CarLot.numberofCars}.");
+
             foreach (var car in lot.Cars)
             {
                 Console.WriteLine($"Year: {car.Year}, Make: {car.Make}, Model: {car.Model}, Engine Noise: {car.EngineNoise}, Honk Noise: {car.HonkNoise}, Is Drivable: {car.IsDriveable}.");
